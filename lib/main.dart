@@ -19,7 +19,6 @@ class MainApp extends StatelessWidget {
               SizedBox(height: 8),
               Text('Dwight Steven F. Fietas'),
               Text('INF242MWA'),
-              Text('Lab Activity 0A: Flutter Installation and Project Setup'),
             ],
           ),
         ),

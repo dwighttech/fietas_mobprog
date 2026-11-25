@@ -1,6 +1,5 @@
-# fietas_mobprog
+# Lab Activity 0B: Discussion
 
-A new Flutter project.
 GitHub Repository Link: https://github.com/dwighttech/fietas_mobprog.git
 
 1. What challenges did you encounter while installing or configuring Flutter?
