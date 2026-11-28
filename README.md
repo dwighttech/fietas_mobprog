@@ -1,0 +1,4 @@
+# Lab Activity 1: Discussion
+
+How I integrated the Image into newsfeed_card.dart and made it dynamic whether it has an image or not:
+To make the image area in NewsFeedCard dynamic, I added a boolean property (hasImage, defaulting to false) and an optional imagePath string parameter to the NewsFeedCard constructor. Inside the card's Column layout, I used a conditional if (hasImage) statement so that posts without images (hasImage: false) skip rendering the image container completely and leave no blank vertical space. When hasImage is true, the widget dynamically checks whether an imagePath asset is provided: if present, it renders the asset inside a rounded ClipRRect using Image.asset with double.infinity width and BoxFit.cover; otherwise, it falls back cleanly to a Placeholder widget. I applied the same conditional pattern to CircleAvatar with an optional profileImagePath so each post can dynamically show either a custom profile image or a default person icon.
